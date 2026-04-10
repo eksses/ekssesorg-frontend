@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #EF4444;       /* Neon Vibrant Red */
+  --color-secondary: #DC2626;     /* Crimson Red */
+  --color-background: #09090B;    /* Obsidian Black */
+  --color-card: #18181B;          /* Matte Black */
+  --color-success: #22C55E;
+  --color-warning: #F59E0B;
+  --color-danger: #B91C1C;        /* Darker Red */
+}
+
+html, body {
+  background-color: var(--color-background);
+  color: white;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  font-family: 'Outfit', sans-serif;
+}
